@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var reverseBackgroundView: UIView!
     @IBOutlet weak var playPauseBackgroundView: UIView!
     @IBOutlet weak var forwardBackgroundView: UIView!
-    
     //Buttons
     @IBOutlet weak var reverseButton: UIButton!
     @IBOutlet weak var playPauseButton : UIButton!
@@ -35,7 +34,6 @@ class ViewController: UIViewController {
     //MARK: LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUIButtons()
     }
     
@@ -109,7 +107,5 @@ class ViewController: UIViewController {
         }
         isPlaying.toggle()
     }
-
-
 }
 
